@@ -9,7 +9,7 @@ public class Main {
 
         double raio = Double.parseDouble(br.readLine());
 
-        double volume = (4.00 / 3.00) * PI * Math.pow(raio, 3);
+        double volume = (4.0 / 3.0) * PI * Math.pow(raio, 3);
 
         System.out.printf("VOLUME = %.3f%n", volume);
     }
